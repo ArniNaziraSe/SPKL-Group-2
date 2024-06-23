@@ -61,9 +61,9 @@
                                                 <div class="col s6">
                                                     <select required name="harga">
                                                         <option value="" disabled selected style="color: #eceff1;"><i>Kriteria Harga</i></option>
-                                                        <option value="2">&lt; 6.000.000</option>
-                                                        <option value="5">6.000.000 - 10.000.000</option>
-                                                        <option value="3">10.000.000 - 15.000.000</option>
+                                                        <option value="4">&lt; 6.000.000</option>
+                                                        <option value="5">6.000.000 - 9.999.000</option>
+                                                        <option value="3">10.000.000 - 14.999.000</option>
                                                         <option value="4">&gt; 15.000.000</option>
                                                     </select>
                                                 </div>
@@ -84,8 +84,8 @@
                                                             <div class="col s6">
                                                                 <select required name="penyimpanan">
                                                                     <option value = "" disabled selected>Kriteria Penyimpanan</option>
-                                                                    <option value = "2">SSD 128 Gb</option>
-                                                                    <option value = "3">SSD 256 Gb</option>
+                                                                    <option value = "1">SSD 128 Gb</option>
+                                                                    <option value = "2">SSD 256 Gb</option>
                                                                     <option value = "4">SSD 512 Gb</option>
                                                                     <option value = "5">> SSD 1 Tb</option>
                                                                 </select>
@@ -97,11 +97,10 @@
                                                             <div class="col s6">
                                                                 <select required name="processor">
                                                                     <option value = "" disabled selected>Kriteria Processor</option>
-                                                                    <option value = "1">Pentium Silver</option>
-                                                                    <option value = "1">INTEL Celeron</option>
+                                                                    <option value = "1">Pentium Silver / INTEL Celeron</option>
                                                                     <option value = "3">INTEL I3 / RYZEN 3</option>
-                                                                    <option value = "4">INTEL I5 / RYZEN 5</option>
-                                                                    <option value = "5">INTEL I7 / RYZEN 7</option>
+                                                                    <option value = "5">INTEL I5 / RYZEN 5</option>
+                                                                    <option value = "2">INTEL I7 / RYZEN 7</option>
                                                                 </select>
                                                             </div>
 
@@ -135,8 +134,8 @@
                                                                 <select required name="gpu">
                                                                     <option value = "" disabled selected>Kriteria GPU</option>
                                                                     <option value = "3">Intel UHD Graphics / AMD Radeon™ Graphics </option>
-                                                                    <option value = "4">AMD Radeon™ Vega 7 Graphics / NVIDIA® GeForce® MX330 / Intel Iris Xe Graphics</option>
-                                                                    <option value = "5">NVIDIA® GeForce RTX™ 2050/3050</option>
+                                                                    <option value = "4">AMD Radeon™ Vega 7 Graphics / Intel Iris Xe Graphics</option>
+                                                                    <option value = "5">NVIDIA® GeForce® MX330 / GeForce RTX™ 2050/3050</option>
                                                                 </select>
                                                             </div>
 
