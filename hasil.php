@@ -233,6 +233,51 @@ function JarakIplus($aplus, $bob) {
                 </ul>
 
                 <center>
+                 <h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">BOBOT (W)</h4>
+                </center>
+                <ul>
+                    <li>
+                        <div class="row">
+                            <div class="card">
+                                <div class="card-content">
+                                    <h5 style="margin-bottom: 16px; margin-top: -6px;">BOBOT (W)</h5>
+                                    <table class="responsive-table">
+                                        <thead>
+                                            <tr>
+                                                <th><center>Value Kriteria Harga</center></th>
+                                                <th><center>Value Kriteria Ram</center></th>
+                                                <th><center>Value Kriteria Penyimpanan</center></th>
+                                                <th><center>Value Kriteria Processor</center></th>
+                                                <th><center>Value Kriteria Ukuran layar</center></th>
+                                                <th><center>Value Kriteria Resolusi layar</center></th>
+                                                <th><center>Value Kriteria GPU</center></th>
+                                                <th><center>Value Kriteria Refresh Rate</center></th>
+                                                <th><center>Value Kriteria Panel Layar</center></th>
+                                                <th><center>Value Kriteria Berat</center></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td><center><?php echo($W1); ?></center></td>
+                                                <td><center><?php echo($W2); ?></center></td>
+                                                <td><center><?php echo($W3); ?></center></td>
+                                                <td><center><?php echo($W4); ?></center></td>
+                                                <td><center><?php echo($W5); ?></center></td>
+                                                <td><center><?php echo($W6); ?></center></td>
+                                                <td><center><?php echo($W7); ?></center></td>
+                                                <td><center><?php echo($W8); ?></center></td>
+                                                <td><center><?php echo($W9); ?></center></td>
+                                                <td><center><?php echo($W10); ?></center></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <center>
                     <h4 class="header" style="margin-left: 24px; margin-bottom: 0px; margin-top: 24px; color: #635c73;">Matriks ternormalisasi terbobot, Y:</h4>
                 </center>
                 <ul>
