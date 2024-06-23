@@ -29,7 +29,7 @@
 				<ul class="left" style="margin-left: -52px;">
 					<li><a href="index.php">HOME</a></li>
 					<li><a class="active" href="rekomendasi.php">REKOMENDASI</a></li>
-                    <li><a href="daftar_hp.php">DAFTAR LAPTOP ASUS</a></li>
+                    <li><a href="daftar_laptop.php">DAFTAR LAPTOP ASUS</a></li>
                     <li><a href="#about">TENTANG</a></li>
 				</ul>
 			</div>		
@@ -38,39 +38,36 @@
 		</div>
 		<!-- Body Start -->
 
-		<!-- Daftar Laptop Start -->
-        <div style="background-color: #efefef">
-            <div class="container">
-                <div class="section-card" style="padding: 32px 0px 20px 0px">
-                    <ul>
-                        <li>
-                            <div class="row">
-                                <div class="col s3">
-                                </div>
-                                <div class="col s6">      
-                                    <div class="card">
-                                        <div class="card-content">
+        <!-- Daftar Laptop Start -->
+<div style="background-color: #efefef">
+    <div class="container">
+        <div class="section-card" style="padding: 20px 0px 20px 0px">
+            <ul>
+                <li>
+                    <div class="row">
+                        <div class="col s3">
+                        </div>
+                        <div class="col s6">      
+                            <div class="card">
+                                <div class="card-content">
+                                    <div class="row">
+                                        <center><h4>Masukan Bobot</h4></center>
+                                        <br>
+                                        <form class="col s12" method="POST" action="hasil.php">
                                             <div class="row">
-                                                <center><h4>Masukan Bobot</h4></center>
-                                                <br>
-                                                <form class = "col s12" method="POST" action="hasil.php">
-                                                    <div class = "row">
-                                                        <div class="col s12">
-
-                                                            <div class="col s6" style="margin-top: 10px;">
-                                                                <b>Kriteria Harga</b>
-                                                            </div>
-                                                            <div class="col s6">
-                                                                <select required name="harga">
-                                                                    <option value = "" disabled selected style="color: #eceff1;"><i>Kriteria Harga</i></option>
-                                                                    <option value = "2">< Rp. 6.000.000</option>
-                                                                    <option value = "5">6.000.000 - 10.000.000</option>
-                                                                    <option value = "3">10.000.000 - 15.000.000</option>
-                                                                    <option value = "4">> 15.000.000</option>
-                                                                </select>
-                                                            </div>
-
-                                                            <div class="col s6" style="margin-top: 10px;">
+                                                <div class="col s6" style="margin-top: 10px;">
+                                                    <b>Kriteria Harga</b>
+                                                </div>
+                                                <div class="col s6">
+                                                    <select required name="harga">
+                                                        <option value="" disabled selected style="color: #eceff1;"><i>Kriteria Harga</i></option>
+                                                        <option value="2">&lt; 6.000.000</option>
+                                                        <option value="5">6.000.000 - 10.000.000</option>
+                                                        <option value="3">10.000.000 - 15.000.000</option>
+                                                        <option value="4">&gt; 15.000.000</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col s6" style="margin-top: 10px;">
                                                             <b>RAM</b>
                                                             </div>
                                                             <div class="col s6">
@@ -81,7 +78,6 @@
                                                                     <option value = "5">16 Gb</option>
                                                                 </select>
                                                             </div>
-
                                                             <div class="col s6" style="margin-top: 10px;">
                                                                 <b>Penyimpanan</b>
                                                             </div>
@@ -102,7 +98,7 @@
                                                                 <select required name="processor">
                                                                     <option value = "" disabled selected>Kriteria Processor</option>
                                                                     <option value = "1">Pentium Silver</option>
-                                                                    <option value = "2">INTEL Celeron</option>
+                                                                    <option value = "1">INTEL Celeron</option>
                                                                     <option value = "3">INTEL I3 / RYZEN 3</option>
                                                                     <option value = "4">INTEL I5 / RYZEN 5</option>
                                                                     <option value = "5">INTEL I7 / RYZEN 7</option>
@@ -115,9 +111,9 @@
                                                             <div class="col s6">
                                                                 <select required name="ukuran-layar">
                                                                     <option value = "" disabled selected>Kriteria Ukuran Layar</option>
-                                                                    <option value = "3">< 14 inch</option>
-                                                                    <option value = "5">14 - 15 inch</option>
-                                                                    <option value = "4">> 15 inch</option>
+                                                                    <option value = "3">13.3</option>
+                                                                    <option value = "5">14</option>
+                                                                    <option value = "4">15.6</option>
                                                                 </select>
                                                             </div>
 
@@ -138,8 +134,8 @@
                                                             <div class="col s6">
                                                                 <select required name="gpu">
                                                                     <option value = "" disabled selected>Kriteria GPU</option>
-                                                                    <option value = "3">AMD Radeon™ Vega 7 Graphics / Intel UHD Graphics / AMD Radeon™ Graphics </option>
-                                                                    <option value = "4">Intel Iris Xe Graphics / NVIDIA® GeForce® MX330</option>
+                                                                    <option value = "3">Intel UHD Graphics / AMD Radeon™ Graphics </option>
+                                                                    <option value = "4">AMD Radeon™ Vega 7 Graphics / NVIDIA® GeForce® MX330 / Intel Iris Xe Graphics</option>
                                                                     <option value = "5">NVIDIA® GeForce RTX™ 2050/3050</option>
                                                                 </select>
                                                             </div>
@@ -150,9 +146,8 @@
                                                             <div class="col s6">
                                                                 <select required name="refresh-rate">
                                                                     <option value = "" disabled selected>Kriteria Refresh Rate</option>
-                                                                    <option value = "3">< 60 Hz</option>
-                                                                    <option value = "5">60 - 144 Hz</option>
-                                                                    <option value = "4">> 144 Hz</option>
+                                                                    <option value = "4">60 Hz</option>
+                                                                    <option value = "5">144 Hz</option>
                                                                 </select>
                                                             </div>
 
@@ -178,30 +173,36 @@
                                                                     <option value = "4">< 2 Kg</option>
                                                                 </select>
                                                             </div>
-                                                            
-                                                        </div>  
-                                                    <center><button type="submit" class="waves-effect waves-light btn" style="margin-bottom:-46px;">Hitung</button></center>	
-                                                </form>       
-                                            </div>
-                                        </div>
-                                    </div>                    
+                                                <!-- Sisipkan bagian lainnya seperti RAM, Penyimpanan, Processor, dan sebagainya dengan struktur yang serupa -->
+
+                                                <!-- Tombol Hitung -->
+                                                <center><button type="submit" class="waves-effect waves-light btn" style="margin-bottom: -46px;">Hitung</button></center>	
+                                        </form>       
+                                    </div>
                                 </div>
-                                <div class="col s3">
-                                </div>
-                            </div>
-                        </li>
-                    </ul>	     
-                </div>
-            </div>
+                            </div>                    
+                        </div>
+                        <div class="col s3">
+                        </div>
+                    </div>
+                </li>
+            </ul>	     
         </div>
-        <!-- Rekomendasi Laptop End -->
+    </div>
+</div>
+<!-- Rekomendasi Laptop End -->
+
 
     <!-- Modal Start -->
 	<div id="about" class="modal">
         <div class="modal-content">
           <h4>Tentang</h4>
           <p>Sistem Pendukung Keputusan Pemilihan Laptop Asus ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-				Sistem ini dibuat untuk memberikan rekomendasi laptop Asus sesuai kebutuhan. <br>
+				Sistem ini dibuat sebagai Ujian Akhir Semester Genap Mata Kuliah Sistem Pendukung Keputusan Lanjut Prodi Teknik Informatika Universitas Islam Balitar. <br>
+				<br>
+				1. Arni Nazira<br>
+				2. Balya Ahmad Wafa<br>
+				3. Eza Rafli Vernica Saputra<br>
 			</p>
         </div>
         <div class="modal-footer">

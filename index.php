@@ -3,7 +3,7 @@
 <head>
 	<title>Sistem Pendukung Keputusan Pemilihan Laptop Asus</title>
 	<meta property="og:image" content="assets/image/laptop.jpg" />
-	<meta name="description" content="LapTop.com adalah aplikasi Sistem Pendukung Keputusan Laptop berbasis Metode Topsis">
+	<meta name="description" content="KembalikeLaptop.com adalah aplikasi Sistem Pendukung Keputusan pemilihan Laptop Asus berbasis Metode Topsis">
 	<!--Import Google Icon Font-->
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!--Import materialize.css-->
@@ -38,7 +38,7 @@
 								<ul class="left" style="margin-left: -52px;">
 									<li><a class="active" href="index.php">HOME</a></li>
 									<li><a href="rekomendasi.php">REKOMENDASI</a></li>
-									<li><a href="daftar_hp.php">DAFTAR LAPTOP ASUS</a></li>
+									<li><a href="daftar_laptop.php">DAFTAR LAPTOP ASUS</a></li>
 									<li><a href="#about">TENTANG</a></li>
 								</ul>
 						</div>			
@@ -63,27 +63,6 @@
 			<div class="parallax"><img src="assets/image/dashboard.jpg" alt="Laptop"></div>
 		</div>
 		<!-- Jumbotron End -->
-
-	<!-- Info Start -->
-	<!-- <div style="background-color: white">
-		<div class="container">
-		    <div class="section-card" style="padding: 36px 0px">
-		    	<div class="row">
-		    		<div class="col s6">
-			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73">INFO SISTEM</h5></center><br>
-			    		<p style="text-align: justify; padding-right: 16px;">Sistem Pendukung Keputusan Pemilihan Laptop Asus ini menggunakan metode TOPSIS yang dibangun menggunakan bahasa PHP.
-						Sistem ini dibuat untuk memberikan rekomendasi laptop Asus sesuai kebutuhan.</p>
-				  </div>
-			    	<div class="col s6">
-			    		<center><h5 class="header" style="margin-left: 0px; margin-bottom: 0px; margin-top: 25px; color: #635c73">INFO METODE</h5></center><br>
-							<p style="text-align: justify; padding-left: 16px;">Metode yang digunakan adalah metode TOPSIS. Metode TOPSIS adalah salah satu metode penyelesaian pada sistem pendukung keputusan. Metode ini mengevaluasi beberapa alternatif terhadap sekumpulan atribuat atau kriteria, dimana setiap atribut saling tidak bergantung satu dengan yang lainnya.
-							</p>
-					</div>
-		    	</div>
-	    	</div>
-		</div>
-	</div> -->
-	<!-- Info End -->
 
 	<div id="about" class="modal">
     <div class="modal-content">
