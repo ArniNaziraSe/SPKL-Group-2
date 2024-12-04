@@ -13,6 +13,39 @@ by **Kelompok 2 - SPKL**
 ## Screenshoot Web
 
 ![Halaman Home](/assets/image/home.png "Halaman Home")
+
 ![Halaman Rekomendasi](/assets/image/rekomendasi.png "Halaman Rekomendasi")
-![Halaman Daftar Laptop Asus](/assets/image/rekomendasi.png "Halaman Daftar Laptop Asus")
+
+![Halaman Daftar Laptop Asus](/assets/image/daftar_laptop.png "Halaman Daftar Laptop Asus")
+
 ![Halaman Tentang](/assets/image/tentang.png "Halaman Tentanng")
+
+![Halaman Hasil](/assets/image/hasil_1.png "Halaman Hasil")
+
+![Halaman Hasil](/assets/image/hasil_2.png "Halaman Hasil")
+
+![Halaman Hasil](/assets/image/hasil_3.png "Halaman Hasil")
+
+![Halaman Hasil](/assets/image/hasil_4.png "Halaman Hasil")
+
+![Halaman Hasil](/assets/image/hasil_5.png "Halaman Hasil")
+
+![Halaman Hasil](/assets/image/hasil_6.png "Halaman Hasil")
+
+![Halaman Hasil](/assets/image/hasil_7.png "Halaman Hasil")
+
+## Instruksi Pengguna
+- ## Hasil Rekomendasi Laptop
+  * Klik tombol Pilih Rekomendasi pada halaman home atau klik menu Rekomendasi
+  * Masukkan data kriteria/bobot laptop
+  * Klik tombol Hitung
+
+- ## Tambah data laptop
+  * Klik menu Daftar Laptop Asus
+  * Klik icon + (warna biru) di bawah tabel data laptop
+  * Masukkan data laptop baru
+  * Klik tambah
+
+- ## Hapus data laptop
+  * Klik menu Daftar Laptop Asus
+  * Klik icon - (warna merah) di samping data laptop
