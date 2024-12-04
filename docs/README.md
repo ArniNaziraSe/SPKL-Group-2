@@ -14,7 +14,7 @@ by **Kelompok 2 - SPKL**
 
 - ### Web
 
-    ![Halaman Home](/assets/image/home.jpg "Halaman Home")
+    ![Halaman Home](/assets/image/home.png "Halaman Home")
 
     
     
