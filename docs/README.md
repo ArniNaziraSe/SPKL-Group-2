@@ -13,3 +13,6 @@ by **Kelompok 2 - SPKL**
 ## Screenshoot Web
 
 ![Halaman Home](/assets/image/home.png "Halaman Home")
+![Halaman Rekomendasi](/assets/image/rekomendasi.png "Halaman Rekomendasi")
+![Halaman Daftar Laptop Asus](/assets/image/daftar_laptop.png "Halaman Daftar Laptop Asus")
+![Halaman Tentang](/assets/image/tentang.png "Halaman Tentanng")
