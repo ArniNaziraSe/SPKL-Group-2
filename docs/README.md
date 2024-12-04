@@ -13,20 +13,10 @@ by **Kelompok 2 - SPKL**
 ## Screenshot
 
 - ### Web
+
+    ![Halaman Home](/assets/image/home.jpg "Halaman Home")
+
     
-    ![](https://raw.githubusercontent.com/wahidari/spk_pemilihan_hp/master/ss/a.PNG)
-    
-    ![](https://raw.githubusercontent.com/wahidari/spk_pemilihan_hp/master/ss/b.PNG)
-    
-    ![](https://raw.githubusercontent.com/wahidari/spk_pemilihan_hp/master/ss/c.PNG)
-    
-    ![](https://raw.githubusercontent.com/wahidari/spk_pemilihan_hp/master/ss/d.PNG)
-    
-    ![](https://raw.githubusercontent.com/wahidari/spk_pemilihan_hp/master/ss/e.PNG)
-    
-    ![](https://raw.githubusercontent.com/wahidari/spk_pemilihan_hp/master/ss/f.PNG)
-    
-    ![](https://raw.githubusercontent.com/wahidari/spk_pemilihan_hp/master/ss/g.PNG)
     
 ## License
 > This program is Free Software: 
